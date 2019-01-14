@@ -1,0 +1,69 @@
+@import "_minix.scss";
+@import "common.scss";
+.wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: pxTorem(350px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .log {
+        background: darkcyan;
+        width: pxTorem(100px);
+        height: pxTorem(100px);
+        border-radius: pxTorem(8px);
+    }
+}
+
+section {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .inpt_top,
+    .inpu_password {
+        width: pxTorem(180px);
+        height: pxTorem(30px);
+        border: 0;
+        border: 1px solid #f00;
+        border-radius: pxTorem(20px);
+        text-align: center;
+        line-height: pxTorem(30px);
+        font-size: pxTorem(16px);
+        color: #f00;
+        margin: pxTorem(3px) 0;
+        button {
+            width: pxTorem(180px);
+            height: pxTorem(30px);
+            border: 0;
+            border: 1px solid #f00;
+            border-radius: pxTorem(20px);
+            text-align: center;
+            line-height: pxTorem(30px);
+            font-size: pxTorem(16px);
+            color: #f00;
+            background: #fff;
+            outline: none;
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    height: pxTorem(40px);
+    display: flex;
+    div {
+        width: 25%;
+        height: pxTorem(40px);
+        text-align: center;
+        line-height: pxTorem(40px);
+        font-size: pxTorem(16px);
+    }
+}

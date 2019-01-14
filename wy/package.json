@@ -1,0 +1,18 @@
+{
+    "name": "wy",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "gulp"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "gulp-webserver": "^4.0.0",
+        "gulp-sass": "*",
+        "gulp-clean-css": "*",
+        "gulp-uglify": "*",
+        "gulp-concat": "*"
+    }
+}
